@@ -14,6 +14,11 @@ function exibirMensagemInicial() {
     exibirTextoNaTela('p', 'Escolha um número entre 1 e 10');
 }
 
+function exibirMensagemBoasVindas() {
+    exibirTextoNaTela('h1', 'Boas vindas amigo!');
+}
+
+exibirMensagemBoasVindas()
 exibirMensagemInicial();
 
 function verificarChute() {
